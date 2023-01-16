@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Piani"
+  given-names: "Mirko"
+  orcid: ""
+title: "Orchard_planting_system"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2023-01-16
+url: "https://github.com/mirkopiani98/Orchard_planting_system"
