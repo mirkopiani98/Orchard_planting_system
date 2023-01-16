@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7542352.svg)](https://doi.org/10.5281/zenodo.7542352)
 
 
-This script calculates starting from **5 input reference points** and information about the planting system as the rows and tree's distances, the position of each tree in the orchard. At the end of the process a csv database of trees latitude and longitude locations in WGS84 Datum in produced. 
+This script calculates starting from **input reference points** and desired planting distances as rows and tree's distances, the position of each tree in the orchard. At the end of the process a csv database of trees latitude and longitude locations in WGS84 Datum in produced. 
 
 **Before using the code** ensure your environment being adapt with:
 
