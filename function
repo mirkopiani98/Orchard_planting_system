@@ -3,7 +3,7 @@ import pandas as pd
 import pyproj
 
 
-def sesto_impianto(csv_filepath, intertree, interrow, gcp_list):
+def planting_system(csv_filepath, intertree, interrow, gcp_list):
     ''' The function creates a shapefile of orchards tree positions starting from 
     simple User inputs.
     
@@ -33,13 +33,9 @@ def sesto_impianto(csv_filepath, intertree, interrow, gcp_list):
     else:
         clockwise = False
 
-    # set db CRS
+    # set geo-db CRS
     geodesic = pyproj.Geod(ellps='WGS84')
-    # https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FFigura-37-Angoli-di-Azimuth-in-
-    # avanti-rosso-e-indietro-blu_fig25_318960636&psig=AOvVaw1MQuTZCGa87KuxcLm9NOWG&ust=1631535883563000&source=images&
-    # cd=vfe&ved=0CAsQjRxqFwoTCIjBzve2-fICFQAAAAAdAAAAABAD
-
-
+    
     # get bearing between single row starting and ending points to get an AB line
     # forward azimuth: angle between A and B
     # backword azimuth: angle between B and A
