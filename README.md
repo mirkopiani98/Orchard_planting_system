@@ -4,7 +4,7 @@
 
 This script calculates starting from **5 input reference points** and information about the planting system as the rows and tree's distances, the position of each tree in the orchard. At the end of the process a csv database of trees latitude and longitude locations in WGS84 Datum in produced. 
 
-Before using the code, ensure your environment with:
+**Before using the code** ensure your environment being adapt with:
 
 `pip install pandas`
  
