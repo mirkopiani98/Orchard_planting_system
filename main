@@ -1,4 +1,4 @@
-from code_funct import Sesto_impianto
+from function import planting_system
 
 # enter required inputs
 orch_db = input("Enter the path and filename.csv where to create the database file:\n ")
