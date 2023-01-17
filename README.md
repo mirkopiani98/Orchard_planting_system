@@ -4,7 +4,7 @@
 
 This script calculates starting from **input reference points** and desired planting distances as rows and tree's distances, the position of each tree in the orchard. At the end of the process a csv database of trees latitude and longitude locations in WGS84 Datum (epsg 4326) is produced. 
 
-**Before using the code** ensure your environment being adapt with:
+**Before using the code** ensure your Python environment being adapt with:
 
 `pip install pandas`
  
@@ -33,5 +33,10 @@ This script calculates starting from **input reference points** and desired plan
 
 
 if you found this code usefull please leave a ⭐ and don't forget to reach me out on LinkedIn: [Mirko Piani](https://www.linkedin.com/in/mirko-piani-7b411a1a2/)
+
+
+# Citation
+If you make use of this program, please cite it as:
+* Piani, M. (2023). Orchard_planting_system (Version 1.0.0) [Computer software]. https://doi.org/https://doi.org/10.5281/zenodo.7542352
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7542352.svg)](https://doi.org/10.5281/zenodo.7542352)
