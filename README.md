@@ -13,8 +13,8 @@ This script calculates starting from **input reference points** and desired plan
 ### Points reference and related lines
 + **AB line** is intended as the line to which tree rows are parallel;
 + **ROWs ALIGNMENT LINE** is intended as the line from which all the tree rows start;
-+ **MAX LON line** is the line of maximum longitude, thus any tree after that line will be added in the database;
-+ **MAX LAT line** is the line of maximum latitufr, thus any tree above that line will be added in the database.
++ **MAX LON line** is the line of maximum longitude, thus any tree after that line will not be added in the orchard database (`orch_db`);
++ **MAX LAT line** is the line of maximum latitufr, thus any tree above that line will not be added in the `orch_db`.
 
 ![orchard_planting_system_lines_points](https://user-images.githubusercontent.com/118398203/212771179-4f726ce4-41a3-4ee9-8154-49a30f4b04e4.png)
 
