@@ -1,5 +1,5 @@
 # Orchard_planting_system
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7542352.svg)](https://doi.org/10.5281/zenodo.7542352)
+[![DOI](https://zenodo.org/badge/589582074.svg)](https://zenodo.org/badge/latestdoi/589582074)
 
 
 This script calculates starting from **input reference points** and desired planting distances as rows and tree's distances, the position of each tree in the orchard. At the end of the process a csv database of trees latitude and longitude locations in WGS84 Datum (epsg 4326) is produced. 
@@ -37,6 +37,6 @@ if you found this code usefull please leave a ⭐ and don't forget to reach me o
 
 # Citation
 If you make use of this program, please cite it as:
-* Piani, M. (2023). Orchard_planting_system (Version 1.0.0) [Computer software]. https://doi.org/https://doi.org/10.5281/zenodo.7542352
+* Piani, M. (2023). Orchard_planting_system (Version 1.0.0) [Computer software]. https://doi.org/https://doi.org/10.5281/zenodo.7544041
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7542352.svg)](https://doi.org/10.5281/zenodo.7542352)
+[![DOI](https://zenodo.org/badge/589582074.svg)](https://zenodo.org/badge/latestdoi/589582074)
