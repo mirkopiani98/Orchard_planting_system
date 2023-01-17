@@ -1,9 +1,9 @@
 from function import planting_system
 
 # enter required inputs
-orch_db = input("Enter the path and filename.csv where to create the database file:\n ")
-INTERTREE = input("Enter the distance between trees along the row (metres):\n ")
-INTERROW = input("Enter the distance between the tree rows (metres):\n ")
+orch_db_fn = input("Enter the path and filename.csv where to create the database file:\n ")
+INTERTREE = float(input("Enter the distance between trees along the row (metres):\n "))
+INTERROW = float(input("Enter the distance between the tree rows (metres):\n "))
 
 # points in (latitude, longitude) format
 '''
@@ -28,5 +28,5 @@ gcp_list = [(44.765369, 11.757010), (44.764581, 11.757738), (44.765563, 11.75938
 
 
 
-InRow_bearing, orch_db = orchf.sesto_impianto(orch_db_created_file_name, INTERTREE, INTERROW, gcp_list)
-   
+InRow_bearing, orch_db = planting_system(orch_db_fn, INTERTREE, INTERROW, gcp_list)
+

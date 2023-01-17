@@ -40,7 +40,7 @@ def planting_system(csv_filepath, intertree, interrow, gcp_list):
     # forward azimuth: angle between A and B
     # backword azimuth: angle between B and A
     fwd_azimuth_1to2, back_azimuth, distance = geodesic.inv(lon1, lat1, lon2, lat2)
-    ntree_along_the_row = int((distance / interpianta))+1
+    ntree_along_the_row = int((distance / intertree))+1
 
 
     if lat1 > lat2 and lon1 < lon2:
@@ -120,7 +120,7 @@ def planting_system(csv_filepath, intertree, interrow, gcp_list):
 
         for tree in range(0, 3*ntree_along_the_row):
             print("FINDING TREES\n")
-            d = ((interpianta) / 1000)  # Km
+            d = ((intertree) / 1000)  # Km
             R = 6378.1  # Radius of the Earth  in WGS84 datum
             lat2 = math.asin(math.sin(lat1) * math.cos(d / R) +
                              math.cos(lat1) * math.sin(d / R) * math.cos(brng))
